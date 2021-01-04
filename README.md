@@ -10,5 +10,5 @@ git clone https://github.com/pikokr/kimupack-server.git
 docker build -t kimupack .
 
 # 실행
-docker run -it -d -v $PWD/kimupack:/data kimupack
+docker run -it -d -v $PWD/kimupack:/data -p 25565:25565 kimupack
 ```
