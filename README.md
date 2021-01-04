@@ -17,3 +17,5 @@ docker build -t kimupack .
 # 실행
 docker run -it -d -v $PWD/kimupack:/data -p 25565:25565 kimupack
 ```
+
+이 프로젝트에 대해 궁금한 점이 있으시다면 `pikokr@piko.app`에 질문해주세요!
