@@ -1,5 +1,7 @@
 FROM itzg/minecraft-server
 
+LABEL maintainer="parangee9706@gmail.com"
+
 ENV TYPE=CUSTOM
 
 ENV EULA=true
