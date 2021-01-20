@@ -4,7 +4,7 @@ cd /data
 
 rm -rf mods/*.jar
 
-curl -Lo pack.zip $(curl http://api.technicpack.net/modpack/kimupack-new-world?build=%3Cbuild | jq .url -r)
+curl -Lo pack.zip $(curl http://api.technicpack.net/modpack/kimupack-new-world-hc?build=%3Cbuild | jq .url -r)
 
 unzip -n pack.zip
 
